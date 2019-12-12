@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans&display=swap");
+html, body, ul, ol, li {
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  color: #272727; }
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+.svg-icon {
+  width: 1.5em;
+  height: 1.5em; }
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6; }
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1; }
+
+#top-nav .container-menu {
+  background-color: #F5E5D9;
+  width: 100%;
+  height: 50px; }
+
+#top-nav ul {
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 10px; }
+
+#top-nav li {
+  display: inline-block;
+  width: 18%;
+  margin-top: 8px;
+  font-family: 'PT Sans', sans-serif; }
+  #top-nav li .a1 {
+    font-style: italic;
+    text-decoration: none; }
+  #top-nav li .a2 {
+    text-decoration: none; }
+
+.nav-icons {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-left: 60px; }
+  .nav-left input {
+    border: 0;
+    border-bottom: solid #4691f6 1px; }
+  .nav-left ::placeholder {
+    color: #4691f6; }
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-right: 60px; }
+  .nav-right svg {
+    font-size: 20px;
+    margin-left: 7px; }
+
+header h1 {
+  text-align: center;
+  font-family: 'PT Sans', serif;
+  letter-spacing: 3px;
+  font-size: 40px; }
